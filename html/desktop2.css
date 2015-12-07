@@ -1,0 +1,283 @@
+@import url('resize.css');
+@import url('menudropdown.css');
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+
+@charset "UTF-8";
+/* CSS Document */
+
+body {font-size: 12px; font-family: verdana; background: #fff top center no-repeat; margin: auto; overflow-x: hidden;}
+
+.containerrr{width: 100%; position: relative; margin-left: auto; margin-right: auto;}
+#container_banner {width: 100%; height: auto; float: left;}
+#container_linguagens {width: 100%; height: auto; float: left; background: #d4d4d4; padding: 30px 0 30px 0;}
+#container_equipe {width: 100%; height: auto; float: left;}
+
+img {border: 0;}
+
+.cut1 :nth-child(3n){margin-right: 0!important;}
+.cut2 :nth-child(3n){margin-right: 0!important;}
+.cut3 :nth-child(3n){margin-right: 0!important;}
+.cut4 :nth-child(4n){margin-right: 0!important;}
+
+.alinha_geral {width: 90.5%; height: auto; float: right; margin-top: 30px;}
+.alinha0 {width: 100%; height: auto; float: left;}
+
+.alinha1 {width: 100%; float: left; color: #1a1a1a; font: 45px 'Roboto Condensed'; text-align: center; padding: 30px 0 30px 0;}
+.alinha2 {width: 90.5%; float: right; color: #000; font: 30px 'Roboto Condensed'; margin: 5px 0 5px 0;}
+.alinha3 {width: 90.5%; float: right; color: #3F3F3F; font: 15px 'Roboto Condensed'; padding-bottom: 50px;}
+.alinha4 {width: 100%; height: auto; float: left; color: #1a1a1a; font: 25px 'Roboto Condensed'; text-align: center; padding: 30px 0 20px 0;}
+.alinha5 {width: 100%; height: auto; float: left; color: #1a1a1a; font: 25px 'Roboto Condensed'; padding: 30px 0 20px 0;}
+.alinha6 {width: 100%; float: left; color: #1a1a1a; font: 20px 'Roboto Condensed'; margin-bottom: 20px;}
+
+.alinha01 {width: 100%; float: left; color: #1f80ed; font: 20px 'Roboto Condensed'; text-align: center; padding: 10px 0 10px 0;}
+.alinha02 {width: 100%; float: left; color: #0096a5; font: 20px 'Roboto Condensed'; text-align: center; padding: 10px 0 10px 0;}
+.alinha03 {width: 100%; float: left; color: #e91e63; font: 20px 'Roboto Condensed'; text-align: center; padding: 10px 0 10px 0;}
+.alinha04 {width: 100%; float: left; color: #9c27b0; font: 20px 'Roboto Condensed'; text-align: center; padding: 10px 0 10px 0;}
+.alinha05 {width: 100%; float: left; color: #2597f2; font: 20px 'Roboto Condensed'; text-align: center; padding: 10px 0 10px 0;}
+.alinha06 {width: 100%; float: left; color: #11a542; font: 20px 'Roboto Condensed'; text-align: center; padding: 10px 0 10px 0;}
+.alinha07 {width: 100%; float: left; color: #ff0000; font: 20px 'Roboto Condensed'; text-align: center; padding: 10px 0 10px 0;}
+
+.color1 {width: 11%; height: 5px; float: left; background: #1f80ed;}
+.color2 {width: 11%; height: 5px; float: left; background: #0096a5;}
+.color3 {width: 11%; height: 5px; float: left; background: #e91e63;}
+.color4 {width: 11%; height: 5px; float: left; background: #9c27b0;}
+.color5 {width: 11%; height: 5px; float: left; background: #2597f2;}
+.color6 {width: 11%; height: 5px; float: left; background: #11a542;}
+.color7 {width: 11%; height: 5px; float: left; background: #ff0000;}
+
+a:link {color: #fff; text-decoration: none;}
+a:visited {color: #fff; text-decoration: none;}
+a:hover  {text-decoration: none; color: #fff;}
+
+a.linkdois:link {color: #313131; text-decoration: none;}
+a.linkdois:visited {color: #313131; text-decoration: none;}
+a.linkdois:hover  {text-decoration: none; color: #FF0004;}
+
+#topo {width: 100%; height: 75px; float: left; background: #242424; position: relative;
+-webkit-box-shadow: -3px 3px 21px 0px rgba(41,41,41,1);
+-moz-box-shadow: -3px 3px 21px 0px rgba(41,41,41,1);
+box-shadow: -3px 3px 21px 0px rgba(41,41,41,1);
+}
+
+#menu {height: 30px; float: right; margin-top: 10px; margin-top: 25px;}
+.menu_links1 {height: 40px; float: right; color: #fff; font: 22px 'Roboto Condensed'; margin-left: 20px; text-align: right;}
+
+#menu_mobile {width: 100%; height: 35px; float: right; margin-top: 25px; display: none;}
+
+.submenu li a:link,
+.submenu li a:visited{
+    display: block;
+    padding: 10px 0 10px 0px;
+	margin: 8px 0 -10px 0px;
+    background: #195993;
+    text-decoration: none;
+    width: 150px;
+    color: #fff; border-top: 1px solid #536b8f; text-align: left; font: 12px 'Roboto Condensed', sans-serif; text-align: center;
+}
+ 
+.submenu li:hover a,
+.submenu li a:active,
+.submenu li a:hover{
+    display: block;
+    padding: 10px 0 10px 0px;
+	margin: 8px 0 -10px 0px;
+    background: #5b81a8;
+    text-decoration: none;
+    width: 150px;
+    color: #fff; font: 12px 'Roboto Condensed', sans-serif; text-align: center;
+}
+
+#logomarca {width: 120px; float: left; margin-top: 11px;}
+.logomarca_img {width: 35px; height: 35px; margin-left: auto; margin-right: auto;}
+.logomarca_nome {width: 100%; float: left; color: #fff; font: 15px 'Open Sans Condensed'; text-align: center;}
+
+.banner {width: 100%; height: auto; float: left; overflow: hidden;}
+
+#footer {width: 100%; height: auto; float: left; background: #242424; padding: 20px 0 20px 0; margin-top: 50px;}
+.copyright {width: auto; float: left; color: #fff; font: 12px 'Roboto Condensed'; margin-top: 7px;}
+.trademark {width: 25px; height: 25px; float: right; overflow: hidden;}
+
+#toTop {width: 100px; height: 100px; background: none repeat scroll 0 0; bottom: 10px; color: #333; cursor: pointer; display: none; font-family: verdana; font-size: 11px; padding: 5px; position: fixed; right: 10px; margin: 0 20px 80px 0;}
+
+.sobre_nos {width: 100%; height: auto; float: left; color: #1a1a1a; font: 18px 'Roboto Condensed'; text-align: center; margin-bottom: 30px;}
+#redes_sociais {width: 100%; height: auto; float: left;}
+#redes_sociais_alinha {width: 48px; margin-left: auto; margin-right: auto;}
+.redes_sociais_logos {width: 15px; height: 15px; float: left; margin: 0 3px 0 4px;}
+
+#modulo {width: 31.1%; height: auto; float: left; margin: 0px 20px 20px 0; border: 1px #ccc solid; padding: 20px 0 20px 0}
+.modulo_logo {width: 100px; height: auto; margin-left: auto; margin-right: auto;}
+.modulo_text {width: 100%; height: auto; float: left; text-align: center; color: #313131; font: 20px 'Open Sans Condensed'; margin: 5px 0 10px 0;}
+#modulo_botao {width: 100%; height: auto; float: left; margin-top: 10px;}
+.modulo_botao_img {width: 60px; height: 35px; margin-left: auto; margin-right: auto;}
+
+.sub_modulo_text {width: 100%; height: auto; float: left; color: #313131; font: 20px 'Open Sans Condensed';}
+
+#contato_perfil {width: 100%; height: auto; float: left; margin-top: 50px;}
+.alinhaperfil {width: 100%; height: auto; float: left; margin-bottom: 10px;}
+.contato_cidade {width: 15px; height: 20px; float: left; margin-top: 2px;}
+.contato_cidade_text {width: auto; float: left; color: #8b8888; font: 18px 'Open Sans Condensed'; margin-left: 10px;}
+
+#contato_redes_sociais {width: 100%; height: auto; float: left; margin: 50px 0 200px 0;}
+#contato_redes {width: 340px; height: 150px; margin-left: auto; margin-right: auto;}
+.contato_redes_sociais_logos {width: 150px; height: 150px; float: left; margin-right: 20px;}
+
+.logo_paginas {width: 70px; height: 75px; float: left; margin-top: 30px; overflow: hidden;}
+
+.logica_e_algoritmo {width: 100%; height: auto; float: left; margin: 30px 0 30px 0; color: #8b8888; font: 18px 'Open Sans Condensed';}
+
+.fundamentos_redes {width: 100%; height: auto; float: left; overflow: hidden; border: 1px #ccc solid; padding: 10px;}
+.fundamentos_redes_text {width: 100%; height: auto; float: left; color: #000; font: 18px 'Open Sans Condensed'; margin-top: 30px;}
+
+.fundamentos_ti_css3 {width: 100%; height: auto; float: left; margin: 0 0 0 0; overflow: hidden;}
+
+.comunicacao_img {width: 100%; height: auto; float: left; margin: 0 0 0 0; overflow: hidden;}
+.comunicacao_text {width: 100%; height: auto; float: left; margin-top: 20px; color: #000; font: 18px 'Open Sans Condensed';}
+
+.consultor_titulo {width: 100%; height: auto; float: left; color: #1a1a1a; font: 22px 'Roboto Condensed'; text-align: center; margin: 30px 0 1px 0;}
+#consultor {width: 100%; height: auto; float: left; margin-top: 30px;}
+.consultor_foto {width: 12%; height: auto; float: left;}
+.consultor_text {width: 85%; height: auto; float: right; color: #6C6C6C; font: 18px 'Roboto Condensed';}
+
+
+
+/* 
+1200px – Desktops, notebooks com monitores widescreen
+***********************************************************/
+@media screen and (max-width: 1200px){
+.containerrr{width: 80%; position: relative; margin-left: auto; margin-right: auto;}
+#menu_mobile {width: 100%; height: 35px; float: right; margin-top: 25px; display: none;}	
+}
+
+
+
+
+
+/* 
+960px – Tablets no formato paisagem e alguns monitores mais antigos
+***********************************************************/
+@media screen and (max-width:960px){
+.containerrr{width: 80%; position: relative; margin-left: auto; margin-right: auto;}
+#menu_mobile {width: 100%; height: 35px; float: right; margin-top: 25px; display: none;}	
+#container_equipe {width: 100%; height: auto; float: left; padding-bottom: 30px;}
+.alinha01 {width: 100%; float: left; color: #1f80ed; font: 15px 'Roboto Condensed'; text-align: center; padding: 10px 0 10px 0;}
+.alinha02 {width: 100%; float: left; color: #0096a5; font: 15px 'Roboto Condensed'; text-align: center; padding: 10px 0 10px 0;}
+.alinha03 {width: 100%; float: left; color: #e91e63; font: 15px 'Roboto Condensed'; text-align: center; padding: 10px 0 10px 0;}
+.alinha04 {width: 100%; float: left; color: #9c27b0; font: 15px 'Roboto Condensed'; text-align: center; padding: 10px 0 10px 0;}
+.alinha05 {width: 100%; float: left; color: #2597f2; font: 15px 'Roboto Condensed'; text-align: center; padding: 10px 0 10px 0;}
+.alinha06 {width: 100%; float: left; color: #11a542; font: 15px 'Roboto Condensed'; text-align: center; padding: 10px 0 10px 0;}
+.alinha07 {width: 100%; float: left; color: #ff0000; font: 15px 'Roboto Condensed'; text-align: center; padding: 10px 0 10px 0;}
+.alinha_geral {width: 80%; height: auto; float: left; margin-top: 30px;}
+.alinha2 {width: 80%; float: left; color: #000; font: 25px 'Roboto Condensed'; margin: 5px 0 5px 0;}
+.alinha3 {width: 80%; float: left; color: #3F3F3F; font: 15px 'Roboto Condensed'; padding-bottom: 50px;}
+#formulario_campo {width: 31%; height: auto; float: left; margin: 0 20px 20px 0;}
+}
+
+
+
+
+
+/* 
+768px – Tablets no formato retrato, como o iPad
+***********************************************************/
+@media screen and (max-width:768px){
+.containerrr{width: 80%; position: relative; margin-left: auto; margin-right: auto;}
+#menu_mobile {width: 100%; height: 35px; float: right; margin-top: 25px; display: none;}	
+#container_equipe {width: 100%; height: auto; float: left; padding-bottom: 30px;}
+.alinha01 {width: 100%; float: left; color: #1f80ed; font: 13px 'Roboto Condensed'; text-align: center; padding: 10px 0 10px 0;}
+.alinha02 {width: 100%; float: left; color: #0096a5; font: 13px 'Roboto Condensed'; text-align: center; padding: 10px 0 10px 0;}
+.alinha03 {width: 100%; float: left; color: #e91e63; font: 13px 'Roboto Condensed'; text-align: center; padding: 10px 0 10px 0;}
+.alinha04 {width: 100%; float: left; color: #9c27b0; font: 13px 'Roboto Condensed'; text-align: center; padding: 10px 0 10px 0;}
+.alinha05 {width: 100%; float: left; color: #2597f2; font: 13px 'Roboto Condensed'; text-align: center; padding: 10px 0 10px 0;}
+.alinha06 {width: 100%; float: left; color: #11a542; font: 13px 'Roboto Condensed'; text-align: center; padding: 10px 0 10px 0;}
+.alinha07 {width: 100%; float: left; color: #ff0000; font: 13px 'Roboto Condensed'; text-align: center; padding: 10px 0 10px 0;}	
+#modulo {width: 30.5%; height: auto; float: left; margin: 0px 20px 20px 0; border: 1px #ccc solid; padding: 20px 0 20px 0}
+.alinha_geral {width: 80%; height: auto; float: left; margin-top: 30px;}
+.alinha2 {width: 80%; float: left; color: #000; font: 20px 'Roboto Condensed'; margin: 5px 0 5px 0;}
+.alinha3 {width: 80%; float: left; color: #3F3F3F; font: 15px 'Roboto Condensed'; padding-bottom: 50px;}
+#formulario_campo {width: 31%; height: auto; float: left; margin: 0 20px 20px 0; font-size: 15px;}
+}
+
+
+
+
+
+/* 
+640px – iPhone no formato paisagem, como o iPad
+***********************************************************/
+@media screen and (max-width:640px) and (min-width: 481px){
+.alinha1 {width: 100%; float: left; color: #1a1a1a; font: 45px 'Roboto Condensed'; text-align: center; padding: 50px 0 50px 0;}
+.containerrr{width: 80%; position: relative; margin-left: auto; margin-right: auto;}
+#menu_mobile {width: 100%; height: 35px; float: right; display: block; margin-top: 0px; position: static;}	
+.menu_mobile_bg {width: 100%; height: auto; float: right; background: #000;}
+#container_equipe {width: 100%; height: auto; float: left; padding-bottom: 10px;}
+#topo {width: 100%; height: 75px; float: left; background: #242424; display: none;}
+.alinha01 {width: 100%; float: left; color: #1f80ed; font: 22px 'Roboto Condensed'; text-align: center; padding: 10px 0 10px 0;}
+.alinha02 {width: 100%; float: left; color: #0096a5; font: 22px 'Roboto Condensed'; text-align: center; padding: 10px 0 10px 0;}
+.alinha03 {width: 100%; float: left; color: #e91e63; font: 22px 'Roboto Condensed'; text-align: center; padding: 10px 0 10px 0;}
+.alinha04 {width: 100%; float: left; color: #9c27b0; font: 22px 'Roboto Condensed'; text-align: center; padding: 10px 0 10px 0;}
+.alinha05 {width: 100%; float: left; color: #2597f2; font: 22px 'Roboto Condensed'; text-align: center; padding: 10px 0 10px 0;}
+.alinha06 {width: 100%; float: left; color: #11a542; font: 22px 'Roboto Condensed'; text-align: center; padding: 10px 0 10px 0;}
+.alinha07 {width: 100%; float: left; color: #ff0000; font: 22px 'Roboto Condensed'; text-align: center; padding: 10px 0 10px 0;}	
+#modulo {width: 100%; height: auto; float: left; margin: 0px 0px 20px 0; border: 1px #ccc solid; padding: 20px 0 20px 0}
+.alinha_geral {width: 80%; height: auto; float: left; margin-top: 30px;}
+.alinha2 {width: 80%; float: left; color: #000; font: 15px 'Roboto Condensed'; margin: 5px 0 5px 0;}
+.alinha3 {width: 80%; float: left; color: #3F3F3F; font: 15px 'Roboto Condensed'; padding-bottom: 50px;}
+#formulario_campo {width: 100%; height: auto; float: left; margin: 0 0 20px 0;}
+}
+
+
+
+
+
+/* 
+480px – Smartphones no formato paisagem com tela pequena
+***********************************************************/
+@media screen and (max-width:480px){
+.alinha1 {width: 100%; float: left; color: #1a1a1a; font: 45px 'Roboto Condensed'; text-align: center; padding: 50px 0 50px 0;}
+.containerrr{width: 100%; position: relative; margin-left: auto; margin-right: auto;}
+#menu_mobile {width: 100%; height: 35px; float: right; display: block; margin-top: 0px;}	
+.menu_mobile_bg {width: 100%; height: auto; float: right; background: #000;}
+#container_equipe {width: 100%; height: auto; float: left; padding-bottom: 10px;}
+#topo {width: 100%; height: 75px; float: left; background: #242424; display: none;}	
+.alinha01 {width: 100%; float: left; color: #1f80ed; font: 22px 'Roboto Condensed'; text-align: center; padding: 10px 0 10px 0;}
+.alinha02 {width: 100%; float: left; color: #0096a5; font: 22px 'Roboto Condensed'; text-align: center; padding: 10px 0 10px 0;}
+.alinha03 {width: 100%; float: left; color: #e91e63; font: 22px 'Roboto Condensed'; text-align: center; padding: 10px 0 10px 0;}
+.alinha04 {width: 100%; float: left; color: #9c27b0; font: 22px 'Roboto Condensed'; text-align: center; padding: 10px 0 10px 0;}
+.alinha05 {width: 100%; float: left; color: #2597f2; font: 22px 'Roboto Condensed'; text-align: center; padding: 10px 0 10px 0;}
+.alinha06 {width: 100%; float: left; color: #11a542; font: 22px 'Roboto Condensed'; text-align: center; padding: 10px 0 10px 0;}
+.alinha07 {width: 100%; float: left; color: #ff0000; font: 22px 'Roboto Condensed'; text-align: center; padding: 10px 0 10px 0;}	
+#modulo {width: 100%; height: auto; float: left; margin: 0px 0px 20px 0; border: 1px #ccc solid; padding: 20px 0 20px 0}
+.alinha_geral {width: 70%; height: auto; float: left; margin-top: 40px;}
+.alinha2 {width: 70%; float: left; color: #000; font: 10px 'Roboto Condensed'; margin: 5px 0 5px 0;}
+.alinha3 {width: 70%; float: left; color: #3F3F3F; font: 15px 'Roboto Condensed'; padding-bottom: 50px;}
+#formulario_campo {width: 100%; height: auto; float: left; margin: 0 0 20px 0;}
+}
+
+
+
+
+
+/* 
+320px – Smartphones no formato retrato com tela pequena
+***********************************************************/
+@media screen and (max-width:320px){
+.alinha1 {width: 100%; float: left; color: #1a1a1a; font: 45px 'Roboto Condensed'; text-align: center; padding: 50px 0 50px 0;}
+.containerrr{width: 100%; position: relative; margin-left: auto; margin-right: auto;}
+#menu_mobile {width: 100%; height: 35px; float: right; display: block; margin-top: 0px;}	
+.menu_mobile_bg {width: 100%; height: auto; float: right; background: #000;}
+#container_equipe {width: 100%; height: auto; float: left; padding-bottom: 10px;}
+#topo {width: 100%; height: 75px; float: left; background: #242424; display: none;}		
+.alinha01 {width: 100%; float: left; color: #1f80ed; font: 22px 'Roboto Condensed'; text-align: center; padding: 10px 0 10px 0;}
+.alinha02 {width: 100%; float: left; color: #0096a5; font: 22px 'Roboto Condensed'; text-align: center; padding: 10px 0 10px 0;}
+.alinha03 {width: 100%; float: left; color: #e91e63; font: 22px 'Roboto Condensed'; text-align: center; padding: 10px 0 10px 0;}
+.alinha04 {width: 100%; float: left; color: #9c27b0; font: 22px 'Roboto Condensed'; text-align: center; padding: 10px 0 10px 0;}
+.alinha05 {width: 100%; float: left; color: #2597f2; font: 22px 'Roboto Condensed'; text-align: center; padding: 10px 0 10px 0;}
+.alinha06 {width: 100%; float: left; color: #11a542; font: 22px 'Roboto Condensed'; text-align: center; padding: 10px 0 10px 0;}
+.alinha07 {width: 100%; float: left; color: #ff0000; font: 22px 'Roboto Condensed'; text-align: center; padding: 10px 0 10px 0;}	
+#modulo {width: 100%; height: auto; float: left; margin: 0px 0px 20px 0; border: 1px #ccc solid; padding: 20px 0 20px 0}
+.alinha_geral {width: 70%; height: auto; float: left; margin-top: 40px;}
+.alinha2 {width: 70%; float: left; color: #000; font: 10px 'Roboto Condensed'; margin: 5px 0 5px 0;}
+.alinha3 {width: 70%; float: left; color: #3F3F3F; font: 15px 'Roboto Condensed';}
+#formulario_campo {width: 100%; height: auto; float: left; margin: 0 0 20px 0;}
+}

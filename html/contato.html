@@ -1,0 +1,128 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+	<meta name='author' content='www.aswebdesign.com.br'/>
+	<meta name="description" content="Breve descrição do site!"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link type="text/css"	rel="stylesheet"	media="screen"	href="desktop2.css"/>    
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+	<title>NOME DO SEU SITE</title>
+
+<!--::::::::: MENUDROPDOWN :::::::::-->
+  	<link rel="stylesheet" href="menudropdown/bootstrap.min.css">
+  	<link rel="stylesheet" href="menudropdown/font-awesome.min.css">
+  	<link rel="stylesheet" href="menudropdown/metisMenu.min.css">
+  	<link rel="stylesheet" href="menudropdown/demo.css">
+  	<link rel="stylesheet" href="menudropdown/prism.min.css">
+</head>
+
+<body><corpo>
+
+	<div id="topo"><div class="center"><div class="clearfix">
+
+    <div id="logomarca">
+    <div class="logomarca_img"><a href="../index.html"><img src="img/logomarca.png"/></a></div>
+	<div class="logomarca_nome">MARCELO MARRA</div>
+    </div>
+
+<!--::::::::: MENU :::::::::-->
+	<div id="menu">
+    <div id="tudo">
+	<ul class="nav">
+	<li><div class="menu_links1"><a href="../index.html">HOME</a></div></li>
+	<li><div class="menu_links1"><a href="equipe.html">EQUIPE</a></div></li>
+    <li><div class="menu_links1"><a href="#">MÓDULOS</a></div>
+    <ul class="submenu">
+    <li><a href="modulo-1.html">MÓDULO I</a></li>
+    <li><a href="countdown/contador/modulo-2.html">MÓDULO II</a></li>
+    <li><a href="countdown/contador/modulo-3.html">MÓDULO III</a></li>
+    <li><a href="countdown/contador/modulo-4.html">MÓDULO IV</a></li>
+    <li><a href="countdown/contador/modulo-5.html">MÓDULO V</a></li>
+    </ul></li> 
+    <li><div class="menu_links1"><a href="contato.html">CONTATO</a></div></li>
+	</div></div></div></div></div></div>
+
+<!--::::::::: MENU MOBILE :::::::::-->	
+    <div id="menu_mobile"><hr>
+	<aside class="sidebar">
+	<nav class="sidebar-nav">
+	<ul class="metismenu" id="menu2">
+	<li>
+	<a href="#"><span><img src="img/menu.png"/></span></a>
+	<ul aria-expanded="false" class="collapse" style="height: 0px;">
+	<li><a href="../index.html">HOME</a></li>
+	<li><a href="equipe.html">EQUIPE</a></li>
+	<li><a href="#">MÓDULOS</a>
+	<ul aria-expanded="false" class="collapse" style="height: 0px;">
+	<div class="menu_mobile_bg">
+    <li><a href="modulo-1.html">MÓDULO I</a></li>
+    <li><a href="countdown/contador/modulo-2.html">MÓDULO II</a></li>
+    <li><a href="countdown/contador/modulo-3.html">MÓDULO III</a></li>
+    <li><a href="countdown/contador/modulo-4.html">MÓDULO IV</a></li>
+    <li><a href="countdown/contador/modulo-5.html">MÓDULO V</a></li>
+    </div></ul></li>              
+	<li><a href="contato.html">CONTATO</a></li>
+	</li></ul></li></ul></nav></aside><hr></div>
+
+<!--::::::::: BANNER :::::::::-->
+	<div id="container_banner">
+    <div class="banner"><img src="img/banner2.jpg" width="100%"/></div>
+    </div>
+
+	<div class="center"><div class="clearfix">
+	<div class="alinha1">INFORMAÇÕES DE CONTATO</div>
+
+	<div id="contato_perfil">
+    <div class="alinha6">MARCELO MARRA</div>
+
+	<div class="alinhaperfil">
+	<div class="contato_cidade"><img src="img/localizador.png"/></div><div class="contato_cidade_text"><strong>GOIÂNIA - GO</strong></div>
+	</div>
+
+	<div class="alinhaperfil">
+	<div class="contato_cidade"><img src="img/email.png"/></div><div class="contato_cidade_text"><strong>MARCELOMARRA@OUTLOOK.COM</strong></div>
+	</div></div>
+
+	<div id="contato_redes_sociais"><div id="contato_redes">
+    <div class="contato_redes_sociais_logos"><a href="https://www.facebook.com/marcelommarra" target="_blank"><input type='image' src='img/face1.png' onmouseover="this.src='img/face2.png'" onmouseout="this.src='img/face1.png'"/></a></div>
+    <div class="contato_redes_sociais_logos"><a href="https://www.linkedin.com/profile/view?id=AAIAABpeQlMBalzMxv3-riRqCNHnq2GRBrireig&trk=nav_responsive_tab_profile" target="_blank"><input type='image' src='img/link1.png' onmouseover="this.src='img/link2.png'" onmouseout="this.src='img/link1.png'"/></a></div>
+    </div></div>
+
+</div></div>
+
+<!--::::::::: FOOTER :::::::::-->
+	<div id="footer"><div class="center"><div class="clearfix">
+	<div class="copyright">Todos direitos são reservados - Marcelo Marra - 
+    <script>
+	var mydate=new Date()
+	var year=mydate.getYear()
+	if (year < 1000)
+	year+=1900
+	document.write(""+year+"")
+	</script> 
+    </div>
+	<div class="trademark"><img src="img/logo.png"/></div>
+    </div></div></div>
+
+</corpo></body>
+</html>
+
+
+
+<script src="menudropdown/jquery.min(1).js"></script>
+<script src="menudropdown/bootstrap.min.js"></script>
+<script src="menudropdown/metisMenu.min.js"></script>
+<script>
+$(function() {
+$('#menu').metisMenu();
+$('#menu2').metisMenu({
+toggle: false
+});
+$('#menu3').metisMenu({
+doubleTapToGo: true
+});
+$('#menu4').metisMenu();
+});
+</script>
+<script src="menudropdown/prism.min.js"></script>
